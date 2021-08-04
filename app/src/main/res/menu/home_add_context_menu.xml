@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/new_random_meal"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="withText|always" />
+
+    <item android:id="@+id/add_to_favourites"
+        android:icon="@drawable/heart_unactive"
+        android:title="Add to Favourites"
+        app:showAsAction="withText|always" />
+
+
+    <item android:id="@+id/remove_from_favourites"
+        android:icon="@drawable/heart"
+        android:title="Remove Favourite"
+        app:showAsAction="withText|always" />
+
+</menu>
